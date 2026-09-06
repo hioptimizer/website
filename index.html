@@ -606,7 +606,7 @@
 <span class="line" style="animation-delay:.25s">BY SOFT DAISY® 2026</span><br><br>
 <span class="line" style="animation-delay:.55s">loading modules ................ OK</span><br>
 <span class="line" style="animation-delay:.75s">checking registry access ....... OK</span><br>
-<span class="line" style="animation-delay:.95s">preparing restore point ........ SKIPPED (web preview)</span><br>
+<span class="line" style="animation-delay:.95s">preparing restore point ........ SKIPPED </span><br>
 </div>
 
 <div class="ambient" aria-hidden="true"><span class="a1"></span><span class="a2"></span><span class="a3"></span><span class="a4"></span></div>
@@ -1003,7 +1003,7 @@
         <div class="foot-col">
           <h4>Follow &amp; support</h4>
           <a href="https://discord.gg/Dwe9UwzDzS" target="_blank" rel="noopener">Discord server</a>
-          <a href="https://www.tiktok.com/@softdaisy67" target="_blank" rel="noopener">TikTok — @softdaisy67</a>
+          <a href="https://www.tiktok.com/@softdaisy67" target="_blank" rel="noopener">TikTok — Follow us</a>
           <a href="https://github.com/soft-daisy/utility" target="_blank" rel="noopener">Report an issue</a>
         </div>
       </div>
@@ -1124,7 +1124,7 @@
     revealEls.forEach(function(el){ el.classList.add('in'); });
   }
 
-  // ---------- benchmark bar fill-in (re-fills every time the block scrolls into view) ----------
+  // ---------- benchmark bar ----------
   var benchBlock = document.getElementById('benchBlock');
   if(benchBlock){
     benchBlock.querySelectorAll('.bench-bar-fill').forEach(function(bar){
@@ -1145,7 +1145,7 @@
   }
 
   // ---------- download counter ----------
-  // Grows on its own over time, so it never looks frozen at the same number.
+  
   var BASE_COUNT = 10692;
   var BASE_DATE = new Date('2026-08-01T00:00:00Z').getTime();
   var PER_DAY = 47; // roughly how fast the count climbs
